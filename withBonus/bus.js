@@ -2,6 +2,20 @@ var Student = require('./student.js');
 var fs = require('fs');
 var colors=require('colors');
 
+var studentsStillOnBus = function(){
+			fs.readFile("schoolbus.txt", "utf-8", function(err, readResult){
+					if(err)
+						throw err;
+							else{	
+									var students = readResult.split('\r\n');
+						for (var i=0; i< students.length-1; i++){
+							var itemJSON = JSON.parse(students[i].replace(/[\[\]']+/g,''));
+								console.log(itemJSON.name.bold.red);
+						}
+					}
+			})
+}
+
 var Bus = function(studentsOnTheBus,driverName,color,gas){
 	this.studentsOnTheBus = [];
 	this.driverName = driverName;
@@ -30,12 +44,7 @@ var Bus = function(studentsOnTheBus,driverName,color,gas){
 						}
 					}else{
 						console.log("\nThese students are on the bus".green);
-						for (var i=0; i< students.length-1; i++){
-							var itemJSON = JSON.parse(students[i].replace(/[\[\]']+/g,''));
-							
-								console.log(itemJSON.name.bold.red);
-							
-						}
+						studentsStillOnBus();
 					}
 					console.log("\n");
 					callback();
@@ -74,12 +83,7 @@ var Bus = function(studentsOnTheBus,driverName,color,gas){
 									}
 								}else{ 
 										console.log("\nThese students are still on the bus".green);
-										for (var i=0; i< students.length-1; i++){
-											var itemJSON = JSON.parse(students[i].replace(/[\[\]']+/g,''));
-											
-												console.log(itemJSON.name.bold.red);
-											
-										}
+										studentsStillOnBus();
 									}		
 							
 							}
