@@ -20,7 +20,7 @@ var Bus = function(studentsOnTheBus,driverName,color,gas){
 				for (var i=0; i< items.length-1; i++){
 					var itemJSON = JSON.parse(items[i].replace(/[\[\]']+/g,''));
 					if(itemJSON.detentions<10 && parseFloat(itemJSON.GPA)>2) {
-						console.log(itemJSON.name.red.bold+ " says: ".bold.magenta + itemJSON.catchPhrase.rainbow);
+						console.log(itemJSON.name.red.bold+ " says: ".bold.magenta + itemJSON.catchPhrase.red);
 					}
 				}
 		}
