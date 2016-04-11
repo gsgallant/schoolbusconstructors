@@ -23,11 +23,12 @@ prompt.get(['name','gender','grade','GPA','detentions','sleepingInClass','catchP
 			
 		}
 			newBus.busChatter(startChatterTrigger,function(){
-					
+					console.log("Who would you like to remove from the bus? <hit enter for no one>")
 					prompt.start();
-					prompt.get(['remove_from_the_bus'],function(err,result){
+					
+					prompt.get(['name'],function(err,result){
 					if(!err){
-							newBus.removeStudentFromBus(result.remove_from_the_bus);
+							newBus.removeStudentFromBus(result.name);
 							}else{
 								throw err;
 							}

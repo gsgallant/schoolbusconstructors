@@ -2,7 +2,7 @@ var Student = require('./student.js');
 var fs = require('fs');
 var colors=require('colors');
 
-var studentsStillOnBus = function(){
+function studentsStillOnBus(){
 			fs.readFile("schoolbus.txt", "utf-8", function(err, readResult){
 					if(err)
 						throw err;
@@ -71,7 +71,7 @@ var Bus = function(studentsOnTheBus,driverName,color,gas){
 									console.log("The following students are still on the bus:".bold.green);
 									for (var i=0; i< students.length-1; ++i){
 
-									var itemJSON = JSON.parse(students[i].replace(/[\[\]']+/g,''));
+										var itemJSON = JSON.parse(students[i].replace(/[\[\]']+/g,''));
 
 										if(name != itemJSON.name) {
 										console.log(itemJSON.name.bold.red);
