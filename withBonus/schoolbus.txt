@@ -26,3 +26,4 @@
 [{"name":"George","gender":"M","grade":"5","GPA":"4","detentions":"21","sleepingInClass":"no","catchPhrase":"I know!!!"}]
 [{"name":"Paul","gender":"M","grade":"5","GPA":"4","detentions":"0","sleepingInClass":"Yes, constantly!","catchPhrase":"I am not really sure."}]
 [{"name":"Samantha","gender":"F","grade":"5","GPA":"4","detentions":"8","sleepingInClass":"not often","catchPhrase":"I am so damn smart it shocks me! lol"}]
+[{"name":"Ahmed","gender":"M","grade":"20","GPA":"10","detentions":"0","sleepingInClass":"Never!","catchPhrase":"Y'all are awesome!"}]
