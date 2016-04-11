@@ -24,6 +24,8 @@ var Bus = function(studentsOnTheBus,driverName,color,gas){
 							var itemJSON = JSON.parse(students[i].replace(/[\[\]']+/g,''));
 							if(itemJSON.detentions<10 && parseFloat(itemJSON.GPA)>2) {
 								console.log(itemJSON.name.red.bold+ " says: ".bold.red + itemJSON.catchPhrase.green);
+							}else{
+								console.log(itemJSON.name.red.bold+ " MUST STAY **QUIET!!**".bold.red);
 							}
 						}
 					}else{
