@@ -26,6 +26,14 @@ var Bus = function(studentsOnTheBus,driverName,color,gas){
 								console.log(itemJSON.name.red.bold+ " says: ".bold.red + itemJSON.catchPhrase.green);
 							}
 						}
+					}else{
+						console.log("\nThese students are on the bus".green);
+						for (var i=0; i< items.length-1; i++){
+							var itemJSON = JSON.parse(items[i].replace(/[\[\]']+/g,''));
+							
+								console.log(itemJSON.name.bold.red);
+							
+						}
 					}
 					console.log("\n");
 					callback();
@@ -45,17 +53,17 @@ var Bus = function(studentsOnTheBus,driverName,color,gas){
 						var who = name;
 						if (!who){who="Nobody"};
 						
-						console.log("\n"+who.bold.red + " was thrown off the bus".bold.black);
+						console.log("\n"+who.bold.red + " was thrown off the bus".red);
 							
 							if(name){
 								fs.writeFile("schoolbus.txt","");//clear out the txt file	
-								console.log("The following students are on the bus:".bold.green);
+								console.log("The following students are still on the bus:".bold.green);
 								for (var i=0; i< students.length-1; ++i){
 
 								var itemJSON = JSON.parse(students[i].replace(/[\[\]']+/g,''));
 
 								if(name != itemJSON.name) {
-								console.log(itemJSON.name);
+								console.log(itemJSON.name.bold.red);
 								fs.appendFile("schoolbus.txt", students[i] + "\r\n", function(err){
 										if(err)
 											throw err;
