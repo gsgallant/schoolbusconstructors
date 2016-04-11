@@ -1,0 +1,7 @@
+[{"name":"Cindy","gender":"F","grade":"12","GPA":"4","detentions":"3","sleepingInClass":"Yes","catchPhrase":"I'm the best!!"}]
+[{"name":"Greg","gender":"M","grade":"5","GPA":"4","detentions":"4","sleepingInClass":"no","catchPhrase":"I need some sleep!"}]
+[{"name":"Jami","gender":"F","grade":"7","GPA":"4","detentions":"3","sleepingInClass":"Yes","catchPhrase":"I work for a great boss!"}]
+[{"name":"Rachel","gender":"F","grade":"4","GPA":"6","detentions":"2","sleepingInClass":"N","catchPhrase":"I'm a fashionista extraordinaire!"}]
+[{"name":"Sam","gender":"M","grade":"5","GPA":"4","detentions":"5","sleepingInClass":"No","catchPhrase":"Sam the man!"}]
+[{"name":"Josh","gender":"M","grade":"12","GPA":"4","detentions":"1","sleepingInClass":"Nope","catchPhrase":"I'm built like a brickhouse!!!"}]
+[{"name":"Jeremy","gender":"M","grade":"4","GPA":"4","detentions":"3","sleepingInClass":"no","catchPhrase":"Code like a genius!"}]
