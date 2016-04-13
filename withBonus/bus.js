@@ -20,7 +20,7 @@ var Bus = function(studentsOnTheBus,driverName,color,gas){
 				throw err;
 			else{		
 					var students = readResult.split('\r\n');
-					if (students.length-1>=startChatterTrigger){
+					if (students.length>=startChatterTrigger){
 						console.log("\nThe students are making noise!".red.bold);
 						for (var i=0; i< students.length-1; i++){
 							var itemJSON = JSON.parse(students[i].replace(/[\[\]']+/g,''));

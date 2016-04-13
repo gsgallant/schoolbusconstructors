@@ -5,7 +5,6 @@
 [{"name":"Jeremy","gender":"M","grade":"4","GPA":"4","detentions":"3","sleepingInClass":"no","catchPhrase":"Code like a genius!"}]
 [{"name":"Angelina","gender":"F","grade":"5","GPA":"5","detentions":"3","sleepingInClass":"Yes","catchPhrase":"Where is Brad?"}]
 [{"name":"Jill","gender":"F","grade":"12","GPA":"4","detentions":"6","sleepingInClass":"yes","catchPhrase":"HELP!!!!!!!!!!!!!!!"}]
-[{"name":"Charlie","gender":"M","grade":"4","GPA":"5","detentions":"8","sleepingInClass":"yes","catchPhrase":"woof!!!"}]
 [{"name":"Harold","gender":"M","grade":"5","GPA":"5","detentions":"5","sleepingInClass":"No","catchPhrase":"Go Giants!"}]
 [{"name":"Eric","gender":"M","grade":"12","GPA":"5","detentions":"3","sleepingInClass":"No way1","catchPhrase":"I rock the designs!"}]
 [{"name":"David","gender":"M","grade":"5","GPA":"4","detentions":"3","sleepingInClass":"YES!","catchPhrase":"Who is that?"}]
@@ -17,3 +16,5 @@
 [{"name":"Nick","gender":"M","grade":"9","GPA":"4","detentions":"3","sleepingInClass":"Nope","catchPhrase":"Weather rocks!!!"}]
 [{"name":"Jami","gender":"F","grade":"7","GPA":"4","detentions":"3","sleepingInClass":"Yes","catchPhrase":"I work for a great boss!"}]
 [{"name":"Craig","gender":"M","grade":"4","GPA":"4","detentions":"4","sleepingInClass":"No","catchPhrase":"My motorcycle is awesome!"}]
+[{"name":"Charlie","gender":"M","grade":"4","GPA":"5","detentions":"8","sleepingInClass":"yes","catchPhrase":"woof!!!"}]
+[{"name":"Steve","gender":"M","grade":"5","GPA":"4","detentions":"3","sleepingInClass":"Never!","catchPhrase":"Lawyer up, DUDE!"}]
