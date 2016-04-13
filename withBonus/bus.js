@@ -62,10 +62,11 @@ var Bus = function(studentsOnTheBus,driverName,color,gas){
 							
 							var students = readResult.split('\r\n');
 							var who = name;
-							if (!who){who="Nobody"};
-							
+							var nameRemoved = false;
+							if (!who){
+								who="Nobody"
 								console.log("\n"+who.bold.red + " was thrown off the bus".red);
-								
+								};
 								if(name){
 									fs.writeFile("schoolbus.txt","");//clear out the txt file	
 									console.log("The following students are still on the bus:".bold.green);
@@ -79,7 +80,14 @@ var Bus = function(studentsOnTheBus,driverName,color,gas){
 												if(err)
 													throw err;
 											})	
+										}else{
+											nameRemoved = true;
 										}
+									}
+									if(nameRemoved){console.log("\n"+name.bold.red + " was thrown off the bus".red);
+
+									}else{
+										console.log("\n"+name.bold.red + " was NOT ON the bus".red);
 									}
 								}else{ 
 										console.log("\nThese students are still on the bus".green);
