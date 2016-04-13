@@ -15,7 +15,6 @@
 [{"name":"David","gender":"M","grade":"5","GPA":"4","detentions":"3","sleepingInClass":"YES!","catchPhrase":"Who is that?"}]
 [{"name":"Adam","gender":"M","grade":"5","GPA":"4","detentions":"3","sleepingInClass":"No","catchPhrase":"I'm starting to get this!"}]
 [{"name":"Rick","gender":"M","grade":"12","GPA":"5","detentions":"3","sleepingInClass":"Nope","catchPhrase":"Double R rocks!"}]
-[{"name":"Max","gender":"M","grade":"4","GPA":"4","detentions":"N","sleepingInClass":"Yes","catchPhrase":"WOOOOOOOF!"}]
 [{"name":"Maxie Dog","gender":"M","grade":"3","GPA":"4","detentions":"4","sleepingInClass":"yes","catchPhrase":"Woof!!"}]
 [{"name":"Jimmy","gender":"M","grade":"6","GPA":"5","detentions":"4","sleepingInClass":"yes","catchPhrase":"Great!"}]
 [{"name":"Lassie Dog!","gender":"M","grade":"4","GPA":"3","detentions":"1","sleepingInClass":"No way!","catchPhrase":"I am the greatest dog that ever lived!"}]
@@ -26,3 +25,4 @@
 [{"name":"Sophie Puppy","gender":"F","grade":"2","GPA":"10","detentions":"1","sleepingInClass":"No","catchPhrase":"Woof!!!!"}]
 [{"name":"Snoopy","gender":"M","grade":"5","GPA":"4","detentions":"21","sleepingInClass":"Yes","catchPhrase":"Who me?"}]
 [{"name":"Nick","gender":"M","grade":"9","GPA":"4","detentions":"3","sleepingInClass":"Nope","catchPhrase":"Weather rocks!!!"}]
+[{"name":"Mikey","gender":"M","grade":"12","GPA":"4","detentions":"12","sleepingInClass":"Not a change","catchPhrase":"Do it!!!"}]

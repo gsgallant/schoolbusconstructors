@@ -10,12 +10,15 @@ function studentsStillOnBus(){
 									var students = readResult.split('\r\n');
 						for (var i=0; i< students.length-1; i++){
 							var itemJSON = JSON.parse(students[i].replace(/[\[\]']+/g,''));
-								console.log(itemJSON.name.bold.red);
+								if(i%7==0){console.log("");}
+								process.stdout.write(itemJSON.name.bold.red);
+								if(i<students.length-2){process.stdout.write(", ");}
+								// console.log(itemJSON.name.bold.red);
 						}
+						console.log("\n");
 					}
 			})
 }
-
 var Bus = function(studentsOnTheBus,driverName,color,gas){
 	this.studentsOnTheBus = [];
 	this.driverName = driverName;
@@ -93,7 +96,6 @@ var Bus = function(studentsOnTheBus,driverName,color,gas){
 										console.log("\nThese students are still on the bus".green);
 										studentsStillOnBus();
 									}		
-							
 							}
 			})
 	}
