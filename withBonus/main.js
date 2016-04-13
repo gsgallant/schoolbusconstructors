@@ -21,11 +21,6 @@ newBus.stillOnBus(function(){
 
 				newBus.studentEntersBus(result.name,result.gender,result.grade,result.GPA,result.detentions,result.sleepingInClass,result.catchPhrase);
 
-				// fs.appendFile("schoolbus.txt", JSON.stringify(newBus.studentsOnTheBus) + "\r\n", function(err){
-				// 		if(err)
-				// 			throw err;
-				// 	})
-				
 			}
 				
 				newBus.busChatter(startChatterTrigger,function(){

@@ -26,3 +26,4 @@
 [{"name":"Julia","gender":"F","grade":"4","GPA":"3","detentions":"3","sleepingInClass":"Nope","catchPhrase":"I love college!"}]
 [{"name":"Ken","gender":"M","grade":"4","GPA":"3","detentions":"3","sleepingInClass":"Nope","catchPhrase":"Study!"}]
 [{"name":"Mark","gender":"M","grade":"5","GPA":"4","detentions":"9","sleepingInClass":"Yes","catchPhrase":"I am so tired!"}]
+[{"name":"Burt","gender":"M","grade":"4","GPA":"4","detentions":"4","sleepingInClass":"No","catchPhrase":"Burt is back!"}]
