@@ -9,7 +9,7 @@ var newBus = new Bus();
 
 newBus.stillOnBus(function(){
 
-	console.log("Who would you like to add?");
+	console.log("Who would you like to add? <no entry means no one added>");
 	prompt.start();
 		
 	prompt.get(['name','gender','grade','GPA','detentions','sleepingInClass','catchPhrase'],function(err,result){
@@ -21,10 +21,10 @@ newBus.stillOnBus(function(){
 
 				newBus.studentEntersBus(result.name,result.gender,result.grade,result.GPA,result.detentions,result.sleepingInClass,result.catchPhrase);
 
-				fs.appendFile("schoolbus.txt", JSON.stringify(newBus.studentsOnTheBus) + "\r\n", function(err){
-						if(err)
-							throw err;
-					})
+				// fs.appendFile("schoolbus.txt", JSON.stringify(newBus.studentsOnTheBus) + "\r\n", function(err){
+				// 		if(err)
+				// 			throw err;
+				// 	})
 				
 			}
 				

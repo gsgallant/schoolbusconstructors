@@ -12,6 +12,10 @@ var Bus = function(studentsOnTheBus,driverName,color,gas){
 	this.studentEntersBus = function(name,gender,grade,GPA,detentions,sleepingInClass,catchPhrase){
 		this.studentsOnTheBus.push(new Student(name,gender,grade,GPA,detentions,sleepingInClass,catchPhrase));
 		console.log(name.bold.red+" enters the bus!\n".magenta);
+		fs.appendFile("schoolbus.txt", JSON.stringify(this.studentsOnTheBus) + "\r\n", function(err){
+						if(err)
+							throw err;
+					})
 	}
 	
 	this.busChatter = function(startChatterTrigger,callback){
