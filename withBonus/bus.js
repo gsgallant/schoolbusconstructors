@@ -12,7 +12,7 @@ function studentsStillOnBus(){
 							var itemJSON = JSON.parse(students[i].replace(/[\[\]']+/g,''));
 								if(i%7==0){console.log("");}
 								process.stdout.write(itemJSON.name.bold.red);
-								if(i<students.length-2){process.stdout.write(", ");}
+								if(i<students.length-2){process.stdout.write(", ".red);}
 								// console.log(itemJSON.name.bold.red);
 						}
 						console.log("\n");
