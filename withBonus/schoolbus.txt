@@ -18,3 +18,5 @@
 [{"name":"Craig","gender":"M","grade":"4","GPA":"4","detentions":"4","sleepingInClass":"No","catchPhrase":"My motorcycle is awesome!"}]
 [{"name":"Charlie","gender":"M","grade":"4","GPA":"5","detentions":"8","sleepingInClass":"yes","catchPhrase":"woof!!!"}]
 [{"name":"Steve","gender":"M","grade":"5","GPA":"4","detentions":"3","sleepingInClass":"Never!","catchPhrase":"Lawyer up, DUDE!"}]
+[{"name":"Sally","gender":"F","grade":"5","GPA":"4","detentions":"4","sleepingInClass":"Yes","catchPhrase":"Snoring is healthy!"}]
+[{"name":"Helena","gender":"F","grade":"13","GPA":"4","detentions":"3","sleepingInClass":"No","catchPhrase":"I like clean!!!!"}]

@@ -82,14 +82,15 @@ var Bus = function(studentsOnTheBus,driverName,color,gas){
 							throw err;
 								else{	
 									var students = readResult.split('\r\n');
-									console.log("\nThese students are on the bus");
+									console.log("\nThese students are currently on the bus".bold.red);
 									for (var i=0; i< students.length-1; i++){
 										var itemJSON = JSON.parse(students[i].replace(/[\[\]']+/g,''));
 										
 										var displayText = pad(itemJSON.name,10);
 
-										if(i%5==0){console.log("");}
+										
 										process.stdout.write(displayText.bold.red);
+										if((i+1)%5==0){console.log("");}
 										// if(i<students.length-2){process.stdout.write(", ".red);}
 									}
 								console.log("\n");
