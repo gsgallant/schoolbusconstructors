@@ -9,7 +9,7 @@ var newBus = new Bus();
 
 newBus.stillOnBus(function(){
 
-	console.log("Who would you like to add? <no entry means no one added>");
+	console.log("Who would you like to add? <No Entry => Nobody>");
 	prompt.start();
 		
 	prompt.get(['name','gender','grade','GPA','detentions','sleepingInClass','catchPhrase'],function(err,result){
@@ -24,7 +24,7 @@ newBus.stillOnBus(function(){
 			}
 				
 				newBus.busChatter(startChatterTrigger,function(){
-						console.log("Who would you like to remove from the bus? <hit enter for no one>")
+						console.log("Who would you like to remove from the bus? <No Entry => Nobody>")
 						prompt.start();
 						
 						prompt.get(['name'],function(err,result){
